@@ -12,8 +12,14 @@ An [agent skill](https://code.claude.com/docs/en/skills) that lets Claude Code
 
 ## Install
 
-One line (installs the auto-updating Claude Code plugin, or clones the skill
-when the CLI is absent; safe to re-run):
+One line — installs the auto-updating Claude Code plugin, or copies the skill
+into `~/.claude/skills/pepperly` when the CLI is absent; safe to re-run:
+
+```sh
+npx pepperly
+```
+
+No Node? Same behavior via the shell installer:
 
 ```sh
 curl -fsSL https://pepperly.dev/install.sh | sh
