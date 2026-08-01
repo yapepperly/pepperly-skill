@@ -1,0 +1,7 @@
+node_modules/
+video/
+state.json
+*.webm
+*.mp4
+*.mov
+.env
