@@ -1,0 +1,18 @@
+{
+  "name": "pepperly",
+  "version": "1.0.0",
+  "description": "Install the Pepperly agent skill: let AI agents create walkthrough videos and publish them to your Pepperly workspace",
+  "bin": { "pepperly": "install.js" },
+  "files": [
+    "install.js",
+    "SKILL.md",
+    "RECORDING.md",
+    "scripts"
+  ],
+  "engines": { "node": ">=18" },
+  "keywords": ["pepperly", "claude", "claude-code", "agent-skill", "walkthrough", "demo-video"],
+  "homepage": "https://pepperly.dev/skill",
+  "repository": { "type": "git", "url": "git+https://github.com/yapepperly/pepperly-skill.git" },
+  "author": "Pepperly",
+  "license": "MIT"
+}
