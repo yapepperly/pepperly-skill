@@ -1,0 +1,21 @@
+{
+  "name": "pepperly-skill",
+  "owner": {
+    "name": "Pepperly",
+    "email": "yariv@pepperly.dev",
+    "url": "https://github.com/yapepperly"
+  },
+  "plugins": [
+    {
+      "name": "pepperly",
+      "source": "./",
+      "description": "Create walkthrough videos with AI, record locally, or upload recordings — straight into your Pepperly workspace",
+      "version": "1.0.0",
+      "author": { "name": "Pepperly" },
+      "homepage": "https://pepperly.dev/skill",
+      "repository": "https://github.com/yapepperly/pepperly-skill",
+      "license": "MIT",
+      "keywords": ["video", "walkthrough", "demo", "screen-recording", "pepperly"]
+    }
+  ]
+}
