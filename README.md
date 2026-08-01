@@ -12,18 +12,18 @@ An [agent skill](https://code.claude.com/docs/en/skills) that lets Claude Code
 
 ## Install
 
-In Claude Code (recommended — gets auto-updates):
+One line (installs the auto-updating Claude Code plugin, or clones the skill
+when the CLI is absent; safe to re-run):
+
+```sh
+curl -fsSL https://pepperly.dev/install.sh | sh
+```
+
+Or inside Claude Code:
 
 ```
 /plugin marketplace add yapepperly/pepperly-skill
 /plugin install pepperly@pepperly-skill
-```
-
-Or non-interactively (scripts / CI):
-
-```sh
-claude plugin marketplace add yapepperly/pepperly-skill
-claude plugin install pepperly@pepperly-skill --scope user
 ```
 
 Or manually, for any agent that reads `SKILL.md` skills:
