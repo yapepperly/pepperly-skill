@@ -1,6 +1,6 @@
 // Shared plumbing for the Pepperly skill scripts: config, authenticated fetch,
 // job polling, and friendly error mapping. Node 20+ (built-in fetch/FormData).
-export const API_BASE = (process.env.PEPPERLY_API_BASE || 'https://api-production-1cd60.up.railway.app').replace(/\/$/, '');
+export const API_BASE = (process.env.PEPPERLY_API_BASE || 'https://api.pepperly.dev').replace(/\/$/, '');
 export const APP_BASE = (process.env.PEPPERLY_APP_BASE || 'https://app.pepperly.dev').replace(/\/$/, '');
 
 export function requireToken() {
