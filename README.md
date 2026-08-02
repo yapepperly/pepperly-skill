@@ -1,14 +1,18 @@
 # Pepperly skill
 
 An [agent skill](https://code.claude.com/docs/en/skills) that lets Claude Code
-(and compatible agents) create walkthrough videos and publish them to your
+(and compatible agents) create walkthrough videos — **free, locally, no
+account needed** — and optionally publish them to your
 [Pepperly](https://app.pepperly.dev) workspace:
 
-- **Generate with AI** — give Pepperly a URL and a description of the flow; the
-  engine plans, records, captions, and edits the video server-side.
-- **Record locally** — a scripted Playwright session with a humanized visible
-  cursor, for flows on localhost / behind VPN / needing your own credentials.
-- **Upload an existing recording** — any mp4 / mov / webm up to 600 MB.
+- **Record locally** (default, no account) — a scripted Playwright session with
+  a humanized visible cursor. Works on any site, localhost, behind VPN, or
+  logged in with your own credentials. The video file is yours; done.
+- **Publish to Pepperly** (API token) — when you want the studio: trim,
+  captions, zoom/highlight/blur, share links, embeds, viewer analytics.
+  Uploads any mp4 / mov / webm up to 600 MB.
+- **Generate with AI** (API token + credits) — give Pepperly a URL and a flow
+  description; the engine plans, records, captions, and edits server-side.
 
 ## Install
 
@@ -38,20 +42,22 @@ Or manually, for any agent that reads `SKILL.md` skills:
 git clone https://github.com/yapepperly/pepperly-skill ~/.claude/skills/pepperly
 ```
 
-Then in Pepperly: **Settings → API tokens → Create token**, and:
+That's it — recording locally needs no account. Ask your agent things like
+*"make a demo video of https://myapp.com — sign up, create a project, invite a
+teammate"*.
+
+To publish (or use the AI path), create a token in Pepperly — **Settings →
+API tokens → Create token** — and:
 
 ```sh
 export PEPPERLY_API_TOKEN=pk_...
 ```
 
-Ask your agent things like *"make a demo video of https://myapp.com — sign up,
-create a project, invite a teammate"* or *"upload demo.mp4 to Pepperly"*.
-
 ## Requirements
 
 - Node 20+
-- `PEPPERLY_API_TOKEN` (see above)
-- For local recording only: `npm i playwright`
+- For local recording: `npm i playwright`
+- `PEPPERLY_API_TOKEN` — only for publishing / AI generation (see above)
 
 ## Self-hosted
 

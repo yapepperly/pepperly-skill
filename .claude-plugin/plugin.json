@@ -1,8 +1,10 @@
 {
   "name": "pepperly",
-  "description": "Create walkthrough videos with AI, record locally, or upload recordings — straight into your Pepperly workspace",
-  "version": "1.0.0",
-  "author": { "name": "Pepperly" },
+  "description": "Create walkthrough videos locally for free — publish to Pepperly when you want editing, sharing, and analytics (or AI generation)",
+  "version": "1.1.0",
+  "author": {
+    "name": "Pepperly"
+  },
   "homepage": "https://pepperly.dev/skill",
   "repository": "https://github.com/yapepperly/pepperly-skill",
   "license": "MIT"
