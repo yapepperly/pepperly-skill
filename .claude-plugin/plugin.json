@@ -1,7 +1,7 @@
 {
   "name": "pepperly",
   "description": "Create walkthrough videos locally for free — publish to Pepperly when you want editing, sharing, and analytics (or AI generation)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": {
     "name": "Pepperly"
   },

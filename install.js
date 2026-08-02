@@ -45,7 +45,8 @@ if (hasClaude()) {
   }
 }
 
-console.log('\nNext steps:');
+console.log('\nReady — no account needed to create videos.');
+console.log('Ask your agent: "make a demo video of https://your-app.com"');
+console.log('\nWant to publish to Pepperly (studio editing, share links, analytics)?');
 console.log('  1. Create an API token: https://app.pepperly.dev -> Settings -> API tokens');
 console.log('  2. export PEPPERLY_API_TOKEN=pk_...');
-console.log('\nThen ask your agent: "make a demo video of https://your-app.com"');

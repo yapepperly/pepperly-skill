@@ -1,6 +1,6 @@
 {
   "name": "pepperly",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Install the Pepperly agent skill: create walkthrough videos locally for free, publish to Pepperly for editing/sharing/analytics",
   "bin": {
     "pepperly": "install.js"
